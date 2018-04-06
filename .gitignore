@@ -11,5 +11,3 @@ classes
 .gradle
 build/
 out/
-gradle/
-gradlew.bat

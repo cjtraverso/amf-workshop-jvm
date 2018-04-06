@@ -2,3 +2,15 @@
 
 title: amf workshop
 version: 1.0
+types:
+  Person:
+    properties:
+      name: string
+      lastName: string
+/endpoint:
+  post:
+    body:
+      application/json:
+        type: string
+        maxLength: -1
+
